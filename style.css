@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left:0px;
+    
+}
+.name-highlight{
+    color:goldenrod;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.half-width>img{
+    width:100%;
+}
+.top-background{
+    background-image:url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    color:wheat;
+    background-color:crimson;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange,tomato);
+}
+p{
+    color:rgb(119, 121, 153);
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow:10px 10px 40px royalblue;
+    border-radius: 10px;
+    height:80%;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,green,tomato);
+    border-image-slice: 1;
+
+}
+#baby-web{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,blue,red);
+    border-image-slice: 1;
+}
+footer{
+    text-align:center;
+    font-size:12px;
+}
+#experience{
+    padding:20px;
+    font-weight: 900;
+}
